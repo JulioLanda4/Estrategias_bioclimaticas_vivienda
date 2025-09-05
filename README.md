@@ -5,7 +5,7 @@
 
 ## 📖 Español  
 
-Este repositorio contiene el proyecto final de **diseño bioclimático**, desarrollado en el Instituto de Energías Renovables de la UNAM.  
+Este repositorio contiene el proyecto final de la asignatura de **Introducción al diseño bioclimático**, desarrollado en el Instituto de Energías Renovables de la UNAM.  
 
 El trabajo se centra en la ciudad de **Pachuca, Hidalgo**, caracterizada por un bioclima **semifrío seco**, y propone estrategias pasivas para mejorar el confort térmico y reducir los grados-hora de disconfort en viviendas.  
 
@@ -24,7 +24,7 @@ La combinación de estas estrategias probó ser la solución más eficiente, log
 
 ## 📖 English  
 
-This repository contains the final project on **bioclimatic design**, developed at the Institute of Renewable Energies of UNAM.  
+his repository contains the final project for the course  **Introduction to bioclimatic design**, developed at the Institute of Renewable Energies of UNAM.  
 
 The study focuses on the city of **Pachuca, Hidalgo (Mexico)**, which has a **semi-cold dry climate**, and proposes passive strategies to improve thermal comfort and reduce discomfort degree-hours in housing.  
 
@@ -50,5 +50,4 @@ Combining all strategies proved to be the most effective solution, achieving:
 ---
 
 ✍️ Autor: **Julio César Landa López**  
-🎓 UNAM – Instituto de Energías Renovables  
-📍 Pachuca, Hidalgo / Temixco, Morelos, 2023  
+🎓 UNAM – Instituto de Energías Renovables    
