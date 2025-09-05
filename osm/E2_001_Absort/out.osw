@@ -1,0 +1,120 @@
+{
+   "completed_at" : "20230606T005650Z",
+   "completed_status" : "Success",
+   "created_at" : "20230601T230053Z",
+   "current_step" : 2,
+   "eplusout_err" : "Program Version,EnergyPlus, Version 9.2.0-921312fa1d, YMD=2023.06.05 18:56,\n   ** Warning ** CheckEnvironmentSpecifications: SimulationControl specified doing design day simulations, but no design environments specified.\n   **   ~~~   ** ...No design environment results produced. For these results, add appropriate SizingPeriod:* objects for your simulation.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS OFF DISCRETE\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON CONTINUOUS\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** GetHTSurfaceData: Surfaces with interface to Ground found but no \"Ground Temperatures\" were input.\n   **   ~~~   ** Found first in surface=SURFACE 104\n   **   ~~~   ** Defaults, constant throughout the year of (18.0) will be used.\n   ** Warning ** CheckUsedConstructions: There are 25 nominally unused constructions in input.\n   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;\n   ** Warning ** Output:Meter: invalid Key Name=\"ELECTRICITY:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"GAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTCOOLING:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTHEATING:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"GAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"ELECTRICITY:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"ELECTRICITY:FACILITY\" - not found.\n   ************* Testing Individual Branch Integrity\n   ************* All Branches passed integrity testing\n   ************* Testing Individual Supply Air Path Integrity\n   ************* All Supply Air Paths passed integrity testing\n   ************* Testing Individual Return Air Path Integrity\n   ************* All Return Air Paths passed integrity testing\n   ************* No node connection errors were found.\n   ************* Beginning Simulation\n   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation\n   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-ELECTRICITY\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-DISTILLATE OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-RESIDUAL OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-NATURAL GAS\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-COAL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ************* Simulation Error Summary *************\n   ************* There are 28 unused schedules in input.\n   ************* There are 28 unused week schedules in input.\n   ************* There are 120 unused day schedules in input.\n   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.\n   *************\n   ************* ===== Final Error Summary =====\n   ************* The following error categories occurred.  Consider correcting or noting.\n   ************* Nominally Unused Constructions\n   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause\n   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm\n   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).\n   *************\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Completed Successfully-- 18 Warning; 0 Severe Errors; Elapsed Time=00hr 00min  8.06sec\n",
+   "file_paths" : [
+      "C:/Users/landa/AppData/Local/Temp/OpenStudioApp.E12800/resources/generated_files",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "16867775",
+   "seed_file" : "../E2_001_Absort.osm",
+   "started_at" : "20230606T005639Z",
+   "steps" : [
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Site Outdoor Air Drybulb Temperature"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "add_output_variable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Site Outdoor Air Drybulb Temperature",
+         "result" : {
+            "completed_at" : "20230606T005639Z",
+            "measure_class_name" : "AddOutputVariable",
+            "measure_display_name" : "Add Output Variable",
+            "measure_name" : "add_output_variable",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a058afb-e349-49ae-a4bf-2c56a42b4352",
+            "measure_version_id" : "3eecceae-5a6f-4d69-ab65-567f9ffeb8b3",
+            "measure_version_modified" : "20200229T024320Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20230606T005639Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 1 output variable objects.",
+            "step_info" : [
+               "Adding output variable for Site Outdoor Air Drybulb Temperature reporting timestep.",
+               "Key value for variable is *."
+            ],
+            "step_initial_condition" : "The model started with 0 output variable objects.",
+            "step_result" : "Success",
+            "step_values" : [
+               {
+                  "name" : "variable_name",
+                  "value" : "Site Outdoor Air Drybulb Temperature"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "timestep"
+               },
+               {
+                  "name" : "key_value",
+                  "value" : "*"
+               }
+            ],
+            "step_warnings" : []
+         }
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "add_output_variable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Zone Mean Air Temperature",
+         "result" : {
+            "completed_at" : "20230606T005639Z",
+            "measure_class_name" : "AddOutputVariable",
+            "measure_display_name" : "Add Output Variable",
+            "measure_name" : "add_output_variable",
+            "measure_taxonomy" : "Reporting.QAQC",
+            "measure_type" : "ModelMeasure",
+            "measure_uid" : "2a058afb-e349-49ae-a4bf-2c56a42b4352",
+            "measure_version_id" : "3eecceae-5a6f-4d69-ab65-567f9ffeb8b3",
+            "measure_version_modified" : "20200229T024320Z",
+            "measure_xml_checksum" : "0CA4D54C",
+            "started_at" : "20230606T005639Z",
+            "stderr" : "",
+            "stdout" : "",
+            "step_errors" : [],
+            "step_files" : [],
+            "step_final_condition" : "The model finished with 2 output variable objects.",
+            "step_info" : [
+               "Adding output variable for Zone Mean Air Temperature reporting timestep.",
+               "Key value for variable is *."
+            ],
+            "step_initial_condition" : "The model started with 1 output variable objects.",
+            "step_result" : "Success",
+            "step_values" : [
+               {
+                  "name" : "variable_name",
+                  "value" : "Zone Mean Air Temperature"
+               },
+               {
+                  "name" : "reporting_frequency",
+                  "value" : "timestep"
+               },
+               {
+                  "name" : "key_value",
+                  "value" : "*"
+               }
+            ],
+            "step_warnings" : []
+         }
+      }
+   ],
+   "updated_at" : "20230606T005650Z",
+   "weather_file" : "MEX_HID_Pachuca.766320_TMYx.epw"
+}

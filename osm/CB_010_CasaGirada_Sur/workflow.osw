@@ -1,0 +1,28 @@
+{
+   "created_at" : "20230601T230053Z",
+   "seed_file" : "../CB_010_CasaGirada_Sur.osm",
+   "steps" : [
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Site Outdoor Air Drybulb Temperature"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "add_output_variable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Site Outdoor Air Drybulb Temperature"
+      },
+      {
+         "arguments" : {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "add_output_variable",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Zone Mean Air Temperature"
+      }
+   ],
+   "updated_at" : "20230604T051346Z",
+   "weather_file" : "MEX_HID_Pachuca.766320_TMYx.epw"
+}

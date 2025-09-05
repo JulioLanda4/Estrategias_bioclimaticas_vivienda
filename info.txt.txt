@@ -1,0 +1,7 @@
+OSM's 
+
+Caso base             - CB_006_OS
+E1                    - E2_001_Absort
+E2                    - E3_001_LowE
+E3                    - E4_001_SC
+Todas las estrategias - E5_001_Todas
